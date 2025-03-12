@@ -1,5 +1,9 @@
 version: STSv1
-mode: enforce
+mode: none
 mx: in1-smtp.messagingengine.com
 mx: in2-smtp.messagingengine.com
-max_age: 1209600
+mx: route1.mx.cloudflare.net
+mx: route2.mx.cloudflare.net
+mx: route3.mx.cloudflare.net
+mx: *.mx.cloudflare.net
+max_age: 86400
