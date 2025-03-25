@@ -2,5 +2,5 @@ version: STSv1
 mode: none
 mx: in1-smtp.messagingengine.com
 mx: in2-smtp.messagingengine.com
-mx: mx.yandez.net
+mx: mx.yandex.net
 max_age: 86400
